@@ -21,7 +21,7 @@
              return esteanyo - this.anyoNacimiento
         }
         printAll() {
-        console.log(`
+            return (`
             - ${this.nombre}
             - ${this.apellido}
             - ${this.anyoNacimiento}
@@ -29,11 +29,12 @@
             - ${this.peso}
             - ${this.altura}
             - ${this.colorPelo}
-                    `)
+            - ${this.hobbies}
+                `)
         }
 
         printHobbies(){
-            console.log(`
+           return(`
            - ${this.hobbies[0]}
            - ${this.hobbies[1]}
            - ${this.hobbies[2]}
@@ -53,4 +54,3 @@ module.exports = {Person}
 
 // console.log(persona.printHobbies());
 
-// src=Person
