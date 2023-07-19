@@ -3,18 +3,19 @@ import { Person } from "./person";
 
 class Contacts{
 
-    public people: Person
+    public people: []
      
     constructor(){
-        this.people
+        this.people = []
     }
 
     printCalendar(){
         return this.people
     }
 }
+let agenda: Contacts = new Contacts()
+let persona10: Person = new Person("juan", 30, "santo angel 48")
 
-let contacts1 = new Contacts(Person())
+agenda.people.push(persona10)
 
-console.log(persona1.printCalendar());
 
