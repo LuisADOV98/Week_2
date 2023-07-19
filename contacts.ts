@@ -1,9 +1,9 @@
 
 import { Person } from "./person";
 
-class Contacts{
+export class Contacts{
 
-    public people: []
+    public people: Person [] 
      
     constructor(){
         this.people = []
@@ -13,9 +13,7 @@ class Contacts{
         return this.people
     }
 }
-let agenda: Contacts = new Contacts()
-let persona10: Person = new Person("juan", 30, "santo angel 48")
 
-agenda.people.push(persona10)
+
 
 

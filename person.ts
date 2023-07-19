@@ -33,11 +33,11 @@ export class Person{
  }
  
  let persona1: Person = new Person("luis", 25, "fuente de lima 21")
- console.log(persona1.printName());
- console.log(persona1.yearOfBirth(2023));
- console.log(persona1.getAddress());
+//  console.log(persona1.printName());
+//  console.log(persona1.yearOfBirth(2023));
+//  console.log(persona1.getAddress());
  
- persona1.setAddress("calle atocha 30");
- console.log(persona1.getAddress());
+//  persona1.setAddress("calle atocha 30");
+//  console.log(persona1.getAddress());
  
  
