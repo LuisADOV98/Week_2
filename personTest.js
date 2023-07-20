@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 let {Person} = require("./Person");
@@ -33,3 +34,14 @@ class Contacts{
 
 module.exports = {Contacts}
 
+=======
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var person_1 = require("./person");
+var persona2 = new person_1.Person("jose", 27, "san jose 25");
+console.log(persona2.printName());
+console.log(persona2.yearOfBirth(2023));
+console.log(persona2.getAddress());
+persona2.setAddress("calle santo angel 48");
+console.log(persona2.getAddress());
+>>>>>>> dia2
