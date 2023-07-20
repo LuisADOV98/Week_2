@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var vector_1 = require("./vector");
+var vectorElement = new vector_1.Vector(4, 8);
+var v1 = new vector_1.Vector(4, 8);
+// console.log(v1.add(vectorElement));
+// console.log(v1.subs(vectorElement));
+// console.log(v1.mult(vectorElement));
+// console.log(v1.multNumber(5));
+// console.log(vectorElement.print());

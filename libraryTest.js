@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var book_1 = require("./book");
+var library_1 = require("./library");
+var book1 = new book_1.Book("la reina roja", 310, "5839545-BC555551", "victoria adyers", "planeta");
+var book2 = new book_1.Book("El codigo Da Vinci", 580, "5684255-BC548856", "Dan Brown", "New Editorial");
+var book3 = new book_1.Book("100 años de soledad", 101, "5468135-BC791355", "Garcia Marquez", "Planeta");
+var libros = new library_1.Library([], "Atocha 38", "Luis Vieira");
+libros.setBooks([book1, book2, book3]);
+// console.log(libros.toString());
+// console.log(libros.getBooks());
+// console.log(libros.getAddress());
+// console.log(libros.getManager());
+// console.log(libros.getNumberOfBooks());
+// console.log(libros.findByAuthor("Dan Brown"));
