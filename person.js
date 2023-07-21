@@ -11,7 +11,7 @@ var Person = /** @class */ (function () {
         return "El nombre es: ".concat(this.nombre);
     };
     Person.prototype.yearOfBirth = function (currentYear) {
-        return "El a\u00F1o de nacimiento fue: ".concat(currentYear - this.age);
+        return currentYear - this.age;
     };
     Person.prototype.setAddress = function (newAddress) {
         this.address = newAddress;

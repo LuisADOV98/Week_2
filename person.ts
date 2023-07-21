@@ -16,8 +16,8 @@ export class Person{
      return `El nombre es: ${this.nombre}`
      }
  
-     yearOfBirth(currentYear: number){
-         return `El año de nacimiento fue: ${currentYear - this.age}`
+     yearOfBirth(currentYear: number):number{
+         return  currentYear - this.age
  
      }
      setAddress(newAddress: string){
@@ -25,7 +25,7 @@ export class Person{
          this.address = newAddress
  
      }
-     getAddress(){
+     getAddress():string{
        return  `El nombre de la calle es: ${this.address}`
  
      }
