@@ -17,12 +17,12 @@ export class Person{
      }
  
      yearOfBirth(currentYear: number):number{
-         return  currentYear - this.age
+         return currentYear - this.age
  
      }
-     setAddress(newAddress: string){
+     setAddress(newAddress: string):void{
  
-         this.address = newAddress
+        this.address = newAddress
  
      }
      getAddress():string{
